@@ -1,0 +1,43 @@
+{
+  "name": "Texas Learning & Teacher Capacity Operating System",
+  "short_name": "Texas Learning OS",
+  "description": "Collaborative Texas education and educator-capacity planning PWA with local-first data, cross-domain rooms and optional browser-local AI.",
+  "id": "./",
+  "start_url": "./index.html#overview",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#0b3d68",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Collaboration Room",
+      "url": "./index.html/#collaboration"
+    },
+    {
+      "name": "Texas Evidence",
+      "url": "./index.html/#texas"
+    },
+    {
+      "name": "Local AI",
+      "url": "./index.html/#ai"
+    }
+  ]
+}
